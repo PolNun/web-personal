@@ -1,3 +1,16 @@
+/*
+h1: #03045E;
+h2: #023E8A;
+h3: #0077B6;
+p:  #0077B6;
+mas claro: #0096C7;
+mas claro: #00B4D8;
+mas claro: #48CAE4;
+mas claro: #90E0EF;
+mas claro: #ADE8F4;
+mas claro: #CAF0F8;
+*/
+
 /* Titles */
 .title {
     font-size: 3em;
@@ -23,14 +36,47 @@
 }
 
 .svg-color {
-    background-color: #f8f9fa;
+    background-color: #f4f5f6;
 }
 
 .btn-pablo {
-    background-color: red;
+    background-color: #023E8A;
+    position: relative;
+    top: 30px;
+    border-radius: 3px;
+    border: none;
+    padding: 1em;
+    transition: 0.2s ease;
 }
 
-.card-border {
-    border: 1px solid #0077B6;
+.btn-pablo:hover {
+    background-color: #0096C7;
+    color: #03045E;
+}
+
+.btn-pablo a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btn-cv {
+    color: #03045E;
     border-radius: 3px;
+    border: 1px solid #023E8A;
+}
+
+.btn-project {
+    font-family: monospace, 'Open Sans', sans-serif;
+    background-color: #222;
+    border-radius: 6px;
+    padding: .8em;
+    color: #FFF;
+    border: 2px solid #FFF;
+    transition: 0.2s ease;
+}
+
+.btn-project:hover {
+    border: 2px solid #023E8A;
+    background-color: #FFF;
+    color: #023E8A;
 }

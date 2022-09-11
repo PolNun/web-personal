@@ -41,3 +41,9 @@ body {
 .img-icon {
     margin-bottom: 3px;
 }
+
+/* Projects */
+.card-border {
+    border: 2px solid #222;
+    border-radius: 3px;
+}
