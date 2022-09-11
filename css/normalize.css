@@ -2,9 +2,35 @@
 .title {
     font-size: 3em;
     font-weight: 700;
+    color: #03045E;
 }
 
 .title2 {
     font-size: 2.5em;
     font-weight: 700;
+    color: #03045E;
+}
+
+
+.title3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #023E8A;
+}
+
+.paragraph-color {
+    color: #0077B6;
+}
+
+.svg-color {
+    background-color: #f8f9fa;
+}
+
+.btn-pablo {
+    background-color: red;
+}
+
+.card-border {
+    border: 1px solid #0077B6;
+    border-radius: 3px;
 }

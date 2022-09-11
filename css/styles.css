@@ -2,26 +2,30 @@
 
 body {
     font-family: 'Open Sans', Arial, sans-serif;
-    background-color: lightblue;
 }
+
 /* navbar */
 #navbar {
     background-color: #FFF;
 }
 
+.navbar-toggler-pablo {
+    border: none;
+}
+
 /* Hero */
 #hero-container {
-    height: calc(50vh - 56px);
+    height: max-content;
+    padding-bottom: 1em;
     background-color: #FFF;
 }
 
 #hero-container div {
-    margin-top: 50px;
+    margin: 25px 0 10px 0;
 }
 
 /* Skills */
 #skills-container {
-    height: calc(100vh - 56px);
     background-color: rgb(245, 245, 245);
 }
 
@@ -32,10 +36,6 @@ body {
 
 #skills-container img {
     width: 2.5em;
-}
-
-#skills-container .img-icon-container {
-    padding-top: 10px;
 }
 
 .img-icon {
